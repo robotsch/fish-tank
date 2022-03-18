@@ -7,7 +7,7 @@ class Seed extends Denizen {
     this.type = options.type;
     this.height = options.height || 30;
     this.width = options.width || 30;
-    this.ttl = options.ttl || randRangeInt(3, 6);
+    this.ttl = options.ttl || randRangeInt(1, 3);
   }
 
   updateOneTick() {
